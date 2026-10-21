@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "email-key-line-bolding",
+  "title": "Bold the key sentences of a dictated email, changing nothing else",
+  "created": "2026-10-21",
+  "updated": "2026-10-21",
+  "status": "preliminary-model",
+  "visibility": {
+    "model": "public",
+    "hf_dataset": "public",
+    "demo_space": "public",
+    "github_public_copy": "public",
+    "github_working_repo": "private",
+    "annotation_space": "private",
+    "changed": "2026-10-21"
+  },
+  "task": {
+    "pipeline_tag": "text-generation",
+    "modality": "text",
+    "languages": [
+      "en"
+    ],
+    "input": "paragraphed email text",
+    "output": "the same text with the key parts wrapped in ** (Markdown bold), or unchanged",
+    "unit": "any run of whole words (usually a sentence)"
+  },
+  "pool": {
+    "items": 342,
+    "by_seed": {
+      "1": 43,
+      "3": 299
+    },
+    "selection": "spec.kind starts with 'a dictated email to'",
+    "built": "2026-10-21"
+  },
+  "annotations": 19,
+  "links": {
+    "github": "https://github.com/danielrosehill/Email-Key-Line-Bolding",
+    "hf_dataset": "https://huggingface.co/datasets/danielrosehill/Email-Key-Line-Bolding",
+    "hf_space": "https://huggingface.co/spaces/danielrosehill/Email-Key-Line-Annotator",
+    "sibling": "https://github.com/danielrosehill/ASR-Paragraph-Breaks",
+    "hf_model": "https://huggingface.co/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding",
+    "github_public": "https://github.com/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding",
+    "hf_demo_space": "https://huggingface.co/spaces/danielrosehill/Email-Key-Line-Bolding-Demo",
+    "site": "https://danielrosehill.com/ai/models/gemma-3-270m-email-key-line-bolding"
+  },
+  "annotation_target": 200,
+  "model": {
+    "run": "email-bold-r2-gemma270m-e10",
+    "base": "google/gemma-3-270m-it",
+    "visibility": "public",
+    "test": "6 gold (extrapolate.TEST_IDS)",
+    "word_f1": 0.618,
+    "word_precision": 0.731,
+    "word_recall": 0.536,
+    "fallback": "0 of 6",
+    "train": {
+      "gold": 13,
+      "silver": 323,
+      "silver_labeller": "claude-sonnet-5-5"
+    },
+    "published": "2026-10-21",
+    "archive": "wasabi:small-models/ai-training/runs/email-bold-r2-gemma270m-e10/"
+  },
+  "labeller_cv": {
+    "claude-haiku-5-5": 0.63,
+    "claude-sonnet-5-5": 0.69,
+    "claude-opus-5-5": 0.69,
+    "metric": "word F1, 4-fold over 19 gold"
+  }
+}
