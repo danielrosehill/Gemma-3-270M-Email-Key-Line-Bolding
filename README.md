@@ -31,6 +31,7 @@ published). Refresh it with `scripts/publish_public.sh`.
 | Demo Space (public) | [`danielrosehill/Email-Key-Line-Bolding-Demo`](https://huggingface.co/spaces/danielrosehill/Email-Key-Line-Bolding-Demo), source [`demo/`](demo/) |
 | Public code | [`danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding`](https://github.com/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding) |
 | Site page | <https://danielrosehill.com/ai/models/gemma-3-270m-email-key-line-bolding> |
+| Blog post (2026-10-21) | <https://blog.danielrosehill.com/posts/email-key-line-bolding-gemma-3-270m-1xi9qv/> |
 | Model (public) | [`danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding`](https://huggingface.co/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding) (preliminary) |
 
 ## Layout

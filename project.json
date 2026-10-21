@@ -42,7 +42,8 @@
     "hf_model": "https://huggingface.co/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding",
     "github_public": "https://github.com/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding",
     "hf_demo_space": "https://huggingface.co/spaces/danielrosehill/Email-Key-Line-Bolding-Demo",
-    "site": "https://danielrosehill.com/ai/models/gemma-3-270m-email-key-line-bolding"
+    "site": "https://danielrosehill.com/ai/models/gemma-3-270m-email-key-line-bolding",
+    "blog_post": "https://blog.danielrosehill.com/posts/email-key-line-bolding-gemma-3-270m-1xi9qv/"
   },
   "annotation_target": 200,
   "model": {

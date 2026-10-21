@@ -27,6 +27,7 @@ the listed points and the key facts, so a reader skimming only the bold knows wh
 
 **Try it:** [Email Key-Line Bolding demo](https://huggingface.co/spaces/danielrosehill/Email-Key-Line-Bolding-Demo)
 (CPU; can add paragraph breaks first; shows the result as bold or as highlights).
+Write-up: [blog post](https://blog.danielrosehill.com/posts/email-key-line-bolding-gemma-3-270m-1xi9qv/).
 
 ## Uses
 
