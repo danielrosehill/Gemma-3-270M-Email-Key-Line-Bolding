@@ -61,7 +61,7 @@
       "silver_labeller": "claude-sonnet-5-5"
     },
     "published": "2026-10-21",
-    "archive": "wasabi:small-models/ai-training/runs/email-bold-r2-gemma270m-e10/"
+    "archive": "wasabi:hf-llms/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding/ (latest HF revision only; moved 2026-10-22, small-models retired)"
   },
   "labeller_cv": {
     "claude-haiku-5-5": 0.63,

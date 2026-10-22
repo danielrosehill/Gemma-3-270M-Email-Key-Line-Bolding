@@ -37,7 +37,7 @@ gold). F1 was still rising at 10 epochs; more epochs or more gold are the next t
 | Copy | Location |
 |---|---|
 | Hub (private) | [`danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding`](https://huggingface.co/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding), r2-e10; card source `hub/model/README.md`; `model.safetensors` LFS sha256 `e080dfa26ec1…` matches the archive |
-| Archive (private) | `wasabi:small-models/ai-training/runs/email-bold-r2-gemma270m-e10/` with `SHA256SUMS`; `rclone check` 0 differences, 12 files |
+| Archive (private) | `wasabi:hf-llms/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding/<YYYY-MM-DD>_<sha7>/` (latest HF revision, `SHA256SUMS` + `MODEL.json`, re-hash verified 2026-10-22). The earlier per-run copy in `small-models` was retired with that bucket on 2026-10-22; Modal run weights deleted the same day |
 | Modal volume `ai-training` | `model/` and `ckpt/` deleted for all four runs after the checks; `metrics.json`, `pred_*.jsonl`, `job.log` kept. The r1/r3 weights were not archived (retrain from the command above) |
 
 Closed out with the `custom-model-planning:finish-training-run` skill (added 2026-10-21 for this).
